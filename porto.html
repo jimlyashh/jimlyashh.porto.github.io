@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/51d56e4d13.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/Logo.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#homel">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portofolio">Portofolio</a></li>
+            <li><a href="#contact">Contact us</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+          <p>
+            <span><b>Graphic Desaigner</b></span>
+          </p>
+          <p>
+            wanna be <b> Web Developer</b> & <b><cwq>Data Engineer</cwq></b>
+          </p>
+          <h1>
+            Hallo, Saya <span>Jimly </span><br />
+            dari Indonesia
+          </h1>
+        </div>
+      </div>
+      <!-----===============----about -------==============-->
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="images/WTDJDQ.png" />
+            </div>
+
+            <div class="about-col-2">
+              <h1 class="sub-title">About me</h1>
+              <p>
+                Aku baru saja selesai berkerja dan aku nganggur, tolong hire
+                saya. makasih
+              </p>
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">
+                  Skills
+                </p>
+                <p class="tab-links" onclick="opentab('experience')">
+                  Experience
+                </p>
+                <p class="tab-links" onclick="opentab('education')">
+                  Education
+                </p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li>
+                    <span>Web Development</span><br />HTML, CSS, and JavaScript
+                  </li>
+                  <li>
+                    <span>Illustrator</span><br />Adobe Photoshop, Illustrator
+                    and Affinity Desaigner
+                  </li>
+                  <li>
+                    <span>Antoher Skills</span><br />Coprywriter, ads and
+                    finance
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li>
+                    <span>2022</span><br />University of Indonesia as Research
+                    Assisten
+                  </li>
+                  <li>
+                    <span>2021 </span><br />Ministry of Health of the Republic
+                    of Indonesia as Data Entry
+                  </li>
+
+                  <li>
+                    <span>2020</span><br />Griya Futsal Courts as Secretary and
+                    Marketing Manager
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li>
+                    <span>2017-2021</span><br />Gunadarma University<br />Bachelor
+                    Degree in Informatics Engineering, 3.42/4.00
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--------services--------------->
+      <div id="services">
+        <div class="container">
+          <h1 class="sub-title">My Services</h1>
+
+          <div class="service-list">
+            <div>
+              <i class="fa-solid fa-pen-ruler"></i>
+              <h2>Architect</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Provident pariatur, possimus corporis assumenda repellendus
+                accusamus quia quis culpa, ipsum similique sed cumque suscipit
+                voluptatibus est maiores reiciendis exercitationem libero
+                eveniet?
+              </p>
+              <a href="https://doc-14-9o-docs.googleusercontent.com/docs/securesc/7qrchd1ij8vtu7750pfilk46drrqh8f8/5fe1qavmg428i08kfidj085tullh3ij6/1666890525000/03653679830799500697/03653679830799500697/14SBAVihQlAf3r--nc31f46iqinaTyutl?e=download&ax=ALW9-sAsS5pPlaFen7GLBliX4LZDNNt17ogh6lbNkcJ7yjZXAtl8Ji7zTV3EgF2KHVQREC2C-m5QiaeKvYnZ5UKQ6uAOvHpogviVkFRh5ZCevTo_ZpQlmXw_YD7tpc1cPHQU3hPGOG-pvUk6cLTY5Z2NglGnw7KJG3i5Rwa94vNCzFkixKPwIz1YEskkTwAtIV-90X-GNjleVmRpeTMKSHBlcAszQg1E30_0kIN2S5RD_QfAPl89nJ8pjvBmcJCgFAdUGVlXOWtUCMEUQiLx7uGXOFMSpFjz6BCzRReXvQx4EZ3dSzM2PXYnV5_13xEFiNya__GSi94k4JGANSOGV1wffoC5CnE-puOTObFFV5kiSoLwpeiWhvjda3VV-RbtVKCYvWTJ8jgOJIhNOh1fqJWP7NKEpPj3gNMU7zZBBpHFUbjniEgNlyjIJo8P11PyfF_GhwBTzVJ3a55ChUkxqot3oJ9N1EmUQS1UCFilqFU049m-RP1lRn68dRTxtq0Er79TdMfhRIRtOx5JNDfQsW7boP3gKF30M_EvAPzw3qRRVFovZPB6aeFPingd9sVYwvvBfGunWLEpb6Rw8rVrDgtdwrVALdnbIZ8Ez5B9hBBsxg8DH-7PYh_Bxhfrn9vWRZwKZRUeXTSkYeVpe6_Tfa5OAJX8feXJl451j6j8OL5FsPqd9hBX8eTxCsFeLbuHEY-k_UMwnKNwGIKPL-MktfpeBSTJ1jQNR_heoiP-G2OrBNJw21G5ziFvrELQgHs89AWveYWdDdbimaiGAoRL8CQswyBF2PeNKjEnEHlJg5GFvFa_ekD22BpcIyNJW0bH-K5MNSG4Z0TjlpBrTpTnEELcUelx0IHJycVJqoqLN0VWZPl37leNo0HkTdzGJuHFWPlO7KkvY9WMDpkfpqcP_bznOvAg169imYdHUuHjMJIZztUbpT8BzXK0ClnRCWnT8zbTW5yU05xTvTf_I8Eour4IeFFb3cd_LAMQdfMFSM_XaPt2DO0j&uuid=ebb2014f-01bb-450c-a5fa-ba600f319fcd&authuser=1&nonce=oel6i99qg7c70&user=03653679830799500697&hash=1s8hijh7v1du0983l302vtovhd8gahsk">Learn more</a>
+            </div>
+            <div>
+              <i class="fa-solid fa-chart-pie"></i>
+              <h2>Data Analyst</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Provident pariatur, possimus corporis assumenda repellendus
+                accusamus quia quis culpa, ipsum similique sed cumque suscipit
+                voluptatibus est maiores reiciendis exercitationem libero
+                eveniet?
+              </p>
+              <a href="#">Learn more</a>
+            </div>
+            <div>
+              <i class="fa-solid fa-paintbrush"></i>
+              <h2>Illustrator</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Provident pariatur, possimus corporis assumenda repellendus
+                accusamus quia quis culpa, ipsum similique sed cumque suscipit
+                voluptatibus est maiores reiciendis exercitationem libero
+                eveniet?
+              </p>
+              <a href="#">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!------portofolio------------>
+      <div id="portofolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/Kamar 3x3 V1.jpg">
+                    <div class="layer">
+                        <h3>Architect</h3>
+                        <p>The Service to prittier your building</p>
+                        <a href="#"> <i class="fa-solid fa-rainbow"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Power BI.png">
+                    <div class="layer">
+                        <h3>Consultant</h3>
+                        <p>The Service to prittier your building</p>
+                        <a href="#"> <i class="fa-solid fa-rainbow"></i></a>
+                    </div>                    
+                </div>
+                <div class="work">
+                    <img src="Images/Cover.png">
+                    <div class="layer">
+                        <h3>Modelings</h3>
+                        <p>The Service to prittier your building</p>
+                        <a href="#"> <i class="fa-solid fa-rainbow"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!------------------------Contact mee--------------->
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-titles"> Contact me</h1>
+              <p><i class="fa-solid fa-paper-plane"></i> james@japro.com</p>
+              <p><i class="fa-solid fa-address-book"></i> 08080800808</p><br>
+              <div class="social-icons">                
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+              <a href="https://doc-0k-9o-docs.googleusercontent.com/docs/securesc/7qrchd1ij8vtu7750pfilk46drrqh8f8/151rqjkrkbl6aj1dm0scq1c3hmfdkorc/1666949475000/03653679830799500697/03653679830799500697/1kGWD0bFSP_8XxWp9AhM_QH1_D3TrWwK0?e=download&ax=ALW9-sB-uTOgdo5uOLRDKU9E0IgTjNHLOeLm88z0bPuinWinScO_UaAS7Rj7Y-KJ1PqMB8fJLK1xNnmKYxDHDSkMwmnHla6n-Uyd0NsnFsL7e5-h1Qp1zeT2IGGocGeiZ-rvS2OJGh9KsWno213xoLPszGDyUPtoDlOgT8hkfPZleg8zBLwJqP61WNBisqh5wxBXZ3sLKO1XKawsFM1Q8OAsQj7aUg6efV2q-Gg4yoAVjSSr1hEtOK01itoETiDcdqUy-1878DFtkHHL5AfhD3QIAAIMxaRmW1D_f37kCBPADDNKjs1AQLPrpkw0CC6HsScG1-LPwPGeKUQg2Gu8SCWPqs9U74Gg0lNWLWClsfN13SolpF13XP4MrQwycNLxFRWTkgp3Qkl_9H-Ck-RZkfJnI_pcIo4OLfdV3hIXMzxf2mHS9W9WGG0oXDxG6wgnjtfTU6l48hOCWzvq9u8O2zev7m96NcjvtVi9JStDTEX6W1gxJ48By_BNTgVWRloLvK6rVUvQ8mDIRv86njiWtuH99CTbo8cjzuUi859FaKaHqTkRCKL-_speZIWCMivwMIcMDR7YwrQ5EB4-6pFb7RMVjYFTYjHQs0bzOdznB6LZXCFah920SsHDCT1B0zafQNly2CGJ9HV3o_E01oCZGIevDr0BcIwOg4SHfntCuzIlfbvY3W9TagmlSBfd-zqsB4fkhABhEMN_BJqGXQ83ZnvAFh-KSMiFRrM723pNu34kP0-ktUJbrMab-BHW2givL3SJ3Sv-KWyTtD2SqC844tV6HM6nGoVvqkvfoiJGdHaHMe9-3NEKBr7ZE_CRXk2Szt8kPwpo9lB_pgPLSgySEkIMKVc7i171w1lGzBEx5GF0wRTVfCVoolQtGAatw4M0YDUwylGIzxCAioI4jI7bdYtI6K5pbu9grlp9MEoKW1WNgR-7Wad-x-RCwNCLse4maj2g-p8Px2xqQTm8mdP_SUxcEc5ibxlj-RUdK116sWCCyBR1XYGn&uuid=5e4d4287-7b42-4718-a827-f665ad1dbab3&authuser=1&nonce=ejfbscqro043e&user=03653679830799500697&hash=il2adn2j1qcgl64no04al5g6mi4u501t"
+               class="btn">Download CV</a>
+            </div>
+            <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="E-mail" required>
+                <textarea  name="Message" row="6" placeholder="Type your message"></textarea>
+                <button type="submit" class="btn2">Submit</button>
+              </form>
+              <span id="msg"></span>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>copyright © Jimly. Made inspiration <i class="fa-solid fa-hat-cowboy"></i> by Easy Tutorials</p>
+        </div>
+      </div>
+
+
+
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+          sidemenu.style.right ="0";          
+        }
+        function closemenu(){
+          sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzML3reoPVzNomAzyzlqBuFRItPFi8k5I0fS5JzTfuM_VCZsNLGfiUCETRGrxzCDMM/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response =>{
+            msg.innerHTML = "Successfully Submited" 
+            setTimeout(function(){
+              msg.innerHTML=""
+            },1000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
