@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/51d56e4d13.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/Logo.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#homel">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portofolio">Portofolio</a></li>
+            <li><a href="#contact">Contact us</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+          <p>
+            <span><b>Graphic Desaigner</b></span>
+          </p>
+          <p>
+            wanna be <b> Web Developer</b> & <b><cwq>Data Engineer</cwq></b>
+          </p>
+          <h1>
+            Hallo, Saya <span>Jimly </span><br />
+            dari Indonesia
+          </h1>
+        </div>
+      </div>
+      <!-----===============----about -------==============-->
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="images/Gans3.png" />
+            </div>
+
+            <div class="about-col-2">
+              <h1 class="sub-title">About me</h1>
+              <p>
+                Hello, you can call me Jimly, I graduated from college with basic IT, but since I was in high school I have been actively working in anything, such as becoming a Sales Promotion Boy (SPB) and becoming Marketing Staff at a tea beverage company in Indonesia, when I was in college I also I work as a Data Entry at the Ministry of Health by running a personal business to manage the futsal field. in this business, I work as Digital Marketing and also a secretary to make quarterly reports. I graduated by creating a simple game project in Unity3D with C# programming language. After I graduated from college I worked for the University of Indonesia as a Research Team at the faculty of computer science led by a professor in the field of Artificial Intelligence (AI), Prof. Dr. eng. Wisnu Jatmiko, S.T., M.Kom. My job is to write scientific books as a writer, editor, reviewer and illustrator. I've worked a lot outside of my field, so this time I will focus on working in my profession later
+              </p>
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">
+                  Skills
+                </p>
+                <p class="tab-links" onclick="opentab('experience')">
+                  Experience
+                </p>
+                <p class="tab-links" onclick="opentab('education')">
+                  Education
+                </p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li>
+                    <span>Web Development</span><br />HTML, CSS, and JavaScript
+                  </li>
+                  <li>
+                    <span>Illustrator</span><br />Adobe Photoshop, Illustrator
+                    and Affinity Desaigner
+                  </li>
+                  <li>
+                    <span>Antoher Skills</span><br />Coprywriter, ads and
+                    finance
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li>
+                    <span>2022</span><br />University of Indonesia as Research
+                    Assisten
+                  </li>
+                  <li>
+                    <span>2021 </span><br />Ministry of Health of the Republic
+                    of Indonesia as Data Entry
+                  </li>
+
+                  <li>
+                    <span>2020</span><br />Griya Futsal Courts as Secretary and
+                    Marketing Manager
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li>
+                    <span>2017-2021</span><br />Gunadarma University<br />Bachelor
+                    Degree in Informatics Engineering, 3.42/4.00
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--------services--------------->
+      <div id="services">
+        <div class="container">
+          <h1 class="sub-title">My Services</h1>
+
+          <div class="service-list">
+            <div>
+              <i class="fa-solid fa-pen-ruler"></i>
+              <h2>Architect</h2>
+              <p>This job I work as modeling objects that are illustrated using tools, such as:<br><br>
+
+                <b>- SketchUp <br>
+                - Blender 3D </b><br><br><br><br>
+                
+              </p>
+              <a href="#portofolio">Learn more<i class="fa-solid fa-right-long"></i></a>
+            </div>
+            <div>
+              <i class="fa-solid fa-chart-pie"></i>
+              <h2>Data Analyst</h2>
+              <p>This job I work as modeling objects that are illustrated using tools, such as:<br><br>
+
+                <b>- Power BI <br><br></b>
+                i started this job since this year, maybe not much experience in this, and i will keep growing
+                
+              </p>
+              <a href="#portofolio">Learn more<i class="fa-solid fa-right-long"></i></a>
+            </div>
+            <div>
+              <i class="fa-solid fa-paintbrush"></i>
+              <h2>Illustrator</h2>
+              <p>This job I work as modeling objects that are illustrated using tools, such as:<br><br>
+
+                <b>- Affinity Designer <br>
+                   - Adobe Photoshop <br>
+                   - Adobe Illustrator<br>
+                   - Canva<br><br>
+                
+              </p>
+              <a href="#portofolio">Learn more<i class="fa-solid fa-right-long"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!------portofolio------------>
+      <div id="portofolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/2D-Kamar-Bottak-Client.jpeg">
+                    <div class="layer">
+                        <h3>Modelings</h3>
+                        <p>I work as a freelancer for clients to fulfill their needs, such as:<br><br>
+
+                          <span>- Interior Design</span><br>
+                          <span>- Building Design (Futsal Field, Office Design, and Open space Design such as Coffee Shop)</span> <br>
+                          <span>- Object Design, etc..</span></p>
+                        <a href="#"> <i class="fa-solid fa-rainbow"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Power BI.png">
+                    <div class="layer">
+                        <h3>Consultant</h3>
+                        <p>I work as a freelancer for clients to fulfill their needs, such as:<br><br>
+
+                          <span>- Finance</span><br>
+                          <span>- Bussiness Performance</span> <br>
+                          <span>- Quarterly Report for Bussiness, etc..</span></p>
+                        <a href="#"> <i class="fa-solid fa-rainbow"></i></a>
+                    </div>                    
+                </div>
+                <div class="work">
+                    <img src="Images/Cover.png">
+                    <div class="layer">
+                        <h3>Art</h3>
+                        <p>I work as a freelancer for clients to fulfill their needs, such as:<br><br>
+
+                          <span>- Logo Design</span><br>
+                          <span>- Cover Book Design</span> <br>
+                          <span>- illustration</span>, etc..</p>
+                        <a href="#"> <i class="fa-solid fa-rainbow"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!------------------------Contact mee--------------->
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-titles"> Contact me</h1>
+              <p><i class="fa-solid fa-paper-plane"></i> jimly.diqie.ja@gmail.com</p>
+              <p><i class="fa-solid fa-address-book"></i> 0812-8905-2032</p><br>
+              <div class="social-icons">                
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+              <a href="https://doc-0k-9o-docs.googleusercontent.com/docs/securesc/7qrchd1ij8vtu7750pfilk46drrqh8f8/151rqjkrkbl6aj1dm0scq1c3hmfdkorc/1666949475000/03653679830799500697/03653679830799500697/1kGWD0bFSP_8XxWp9AhM_QH1_D3TrWwK0?e=download&ax=ALW9-sB-uTOgdo5uOLRDKU9E0IgTjNHLOeLm88z0bPuinWinScO_UaAS7Rj7Y-KJ1PqMB8fJLK1xNnmKYxDHDSkMwmnHla6n-Uyd0NsnFsL7e5-h1Qp1zeT2IGGocGeiZ-rvS2OJGh9KsWno213xoLPszGDyUPtoDlOgT8hkfPZleg8zBLwJqP61WNBisqh5wxBXZ3sLKO1XKawsFM1Q8OAsQj7aUg6efV2q-Gg4yoAVjSSr1hEtOK01itoETiDcdqUy-1878DFtkHHL5AfhD3QIAAIMxaRmW1D_f37kCBPADDNKjs1AQLPrpkw0CC6HsScG1-LPwPGeKUQg2Gu8SCWPqs9U74Gg0lNWLWClsfN13SolpF13XP4MrQwycNLxFRWTkgp3Qkl_9H-Ck-RZkfJnI_pcIo4OLfdV3hIXMzxf2mHS9W9WGG0oXDxG6wgnjtfTU6l48hOCWzvq9u8O2zev7m96NcjvtVi9JStDTEX6W1gxJ48By_BNTgVWRloLvK6rVUvQ8mDIRv86njiWtuH99CTbo8cjzuUi859FaKaHqTkRCKL-_speZIWCMivwMIcMDR7YwrQ5EB4-6pFb7RMVjYFTYjHQs0bzOdznB6LZXCFah920SsHDCT1B0zafQNly2CGJ9HV3o_E01oCZGIevDr0BcIwOg4SHfntCuzIlfbvY3W9TagmlSBfd-zqsB4fkhABhEMN_BJqGXQ83ZnvAFh-KSMiFRrM723pNu34kP0-ktUJbrMab-BHW2givL3SJ3Sv-KWyTtD2SqC844tV6HM6nGoVvqkvfoiJGdHaHMe9-3NEKBr7ZE_CRXk2Szt8kPwpo9lB_pgPLSgySEkIMKVc7i171w1lGzBEx5GF0wRTVfCVoolQtGAatw4M0YDUwylGIzxCAioI4jI7bdYtI6K5pbu9grlp9MEoKW1WNgR-7Wad-x-RCwNCLse4maj2g-p8Px2xqQTm8mdP_SUxcEc5ibxlj-RUdK116sWCCyBR1XYGn&uuid=5e4d4287-7b42-4718-a827-f665ad1dbab3&authuser=1&nonce=ejfbscqro043e&user=03653679830799500697&hash=il2adn2j1qcgl64no04al5g6mi4u501t"
+               class="btn">Download CV</a>
+            </div>
+            <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="E-mail" required>
+                <textarea  name="Message" row="6" placeholder="Type your message"></textarea>
+                <button type="submit" class="btn2">Submit</button>
+              </form>
+              <span id="msg"></span>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>copyright © Jimly. Made inspiration <i class="fa-solid fa-hat-cowboy"></i> by Easy Tutorials</p>
+        </div>
+      </div>
+
+
+
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+          sidemenu.style.right ="0";          
+        }
+        function closemenu(){
+          sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzML3reoPVzNomAzyzlqBuFRItPFi8k5I0fS5JzTfuM_VCZsNLGfiUCETRGrxzCDMM/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response =>{
+            msg.innerHTML = "Successfully Submited" 
+            setTimeout(function(){
+              msg.innerHTML=""
+            },1000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
